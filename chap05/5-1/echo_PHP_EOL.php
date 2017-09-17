@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-echo  "あなたのことが", PHP_EOL, "大好きです";
+echo  "あなたのことが", PHP_EOL, "大好きです!!";
 ?>
 </body>
 </html>
