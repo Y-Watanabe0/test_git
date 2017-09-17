@@ -22,7 +22,7 @@ require_once("../../lib/util.php");
     $readdata = es($readdata);
     // 改行コードの前に<br>を挿入する
     $readdata_br = nl2br($readdata, false);
-    echo "{$filename}を読み込みました。", "<br>";
+    echo "{$filename}を読み込みました。(^^)", "<br>";
     echo $readdata_br, "<hr>";
     echo '<a href="put_contents.php">ファイルに書き込む</a>';
   } else {
