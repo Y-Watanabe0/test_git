@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>色によって値段を決める</title>
+  <title>色によって値段を決める </title>
 </head>
 <body>
 <?php
