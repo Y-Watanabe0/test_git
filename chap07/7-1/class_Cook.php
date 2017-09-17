@@ -12,7 +12,7 @@ class Cook {
   public $age;
 
   public function omlete() {
-    echo "オムレツを作ります。";
+    echo "オムレツを作ります(^^))";
   }
 }
 
