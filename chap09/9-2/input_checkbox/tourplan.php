@@ -34,7 +34,11 @@
       $mealChecked = $_POST["meal"];
     } else {
       $mealChecked = [];
+<<<<<<< HEAD
       $error[] = "「食事」に入力エラーがありました!!";
+=======
+      $error[] = "「食事」に入力エラーがありました!";
+>>>>>>> a636a1caac06a6815b81b957d4efb301d48fc4ff
     }
   } else {
     // POSTされた値がないとき
