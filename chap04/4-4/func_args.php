@@ -19,7 +19,7 @@ function myFunc(){
     // 最後の値を取り出す
     $lastValue = func_get_arg($numArgs-1);
   } else {
-    $lastValue = $average = $total = "（データ無し）";
+    $lastValue = $average = $total = "（データ無）";
   }
   echo "合計点", $total, "\n";
   echo "平均点", $average, "\n";
