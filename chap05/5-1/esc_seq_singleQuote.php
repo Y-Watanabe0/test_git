@@ -5,7 +5,7 @@
   <title>シングルクォートの文字列にシングルクォートを含める</title>
 </head>
 <?php
-$msg= 'そこは Y\'s ROOM です。';
+$msg= 'そこは Y\'s ROOM です!';
 echo $msg;
 ?>
 </body>
