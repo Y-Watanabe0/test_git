@@ -15,7 +15,7 @@ $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>レコードを取り出す（すべて）</title>
+<title>レコードを取り出す（全て）</title>
 <link href="../../css/style.css" rel="stylesheet">
 <!-- テーブル用のスタイルシート -->
 <link href="../../css/tablestyle.css" rel="stylesheet">
@@ -25,6 +25,7 @@ $dsn = "mysql:host={$host};dbname={$dbName};charset=utf8";
   <?php
   //MySQLデータベースに接続する
   try {
+    $f
     $pdo = new PDO($dsn, $user, $password);
     // プリペアドステートメントのエミュレーションを無効にする
     $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
