@@ -24,7 +24,7 @@ session_start();
       if (in_array($coupon, $couponList)){
         echo es($coupon), "は、正しいクーポンコードです。";
       } else {
-        echo es($coupon), "は、誤ったクーポンコードです。";
+        echo es($coupon), "は、誤ったクーポンコードです!!";
       }
     } else {
       echo "セッションエラーです";
